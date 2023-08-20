@@ -1,0 +1,86 @@
+.gradient-background {
+  background: linear-gradient(300deg, #272829, #61677A, #D8D9DA);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.fs-4 {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  font-size: large;
+}
+
+.nav-link:hover {
+  color: #61677A;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.d-block {
+  opacity: 0.65;
+  border: 10px solid #D8D9DA;
+}
+
+.lead {
+  color: white;
+}
+
+.main-text {
+  font-weight: bold;
+}
+
+.grid-table-1 li {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.exp-col {
+  background: linear-gradient(300deg, #7c8399, #D8D9DA);
+  padding-top: 1rem;
+  border-radius: 5%;
+}
+
+.info-page {
+  justify-content: space-between;
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.project-btn {
+  background: linear-gradient(300deg, #272829, #61677A, #D8D9DA);
+  border: 0px;
+}
+
+.project-btn:hover {
+  background: linear-gradient(300deg, #363738, #737689, #e7e8e9);
+  border: 0px;
+}
